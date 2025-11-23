@@ -1,10 +1,12 @@
+import sadhnaTracker from "../assets/sadhnaTracker.png"
+import complaintTracking from "../assets/complaintTracking.png"
 const projects = [
   {
     logo: "src/assets/sadhnaTracker.svg",
     title: "Sadhna Tracker App",
     description:
       "Sadhna Tracker is a simple yet powerful platform designed to help spiritual seekers stay consistent in their daily practices. It allows you to record, monitor, and reflect on your meditation, chanting, reading, or other sadhna activities — turning discipline into a joyful journey. With clean visuals and easy tracking, it keeps you motivated while offering insights into your progress over time.",
-    image: "src/assets/sadhnaTracker.png",
+    image: sadhnaTracker,
     tags: ["React.js", "Node.js", "Express.js", "Mongo DB", "Tailwind CSS"],
     demoUrl: "https://sadhna-tracker-app-frontend.vercel.app/",
     githubUrl: "",
@@ -18,7 +20,7 @@ const projects = [
     title: "Hostel Complain Management System",
     description:
       "🏠 Hostel Complaint Management System simplifies how students raise issues and staff resolve them. Complaints about facilities like electricity, Wi-Fi, or mess services can be submitted, tracked, and updated in real time, ensuring faster resolutions, transparency, and smoother communication between students and administrators.",
-    image: "src/assets/complaintTracking.png",
+    image: complaintTracking,
     tags: ["Node.js", "NextAuth.js", "Tailwind CSS", "MongoDB", "React.js"],
     demoUrl: "#",
     githubUrl: "",
