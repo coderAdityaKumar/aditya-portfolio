@@ -50,7 +50,7 @@ export default function Hero() {
           {/* Buttons */}
           <div className="flex flex-wrap gap-2 sm:gap-3">
             <a
-              href="src\assets\Resume\Aditya_Kumar_Resume.pdf"
+              href="https://drive.google.com/file/d/1pu0TdnJEzQCdIYGqnFEHgrDW_ldtmgK3/view?usp=sharing"
               target="_blank"
               download
               className="px-3 py-1.5 text-xs sm:text-sm bg-blue-600 text-white rounded hover:bg-blue-700 transition flex gap-2"
