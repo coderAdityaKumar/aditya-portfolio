@@ -3,14 +3,14 @@ const experiences = [
     title: "Web Developer Intern",
     company: "Expelee IT Solutions",
     period: "May 22, 2025 - July 21, 2025",
-    responsibilities: ["Working on fullstack development."],
+    responsibilities: ["Working on Fullstack development."],
     skills: ["React", "JavaScript", "Node.js", "Tailwind Css"],
   },
   {
     title: "Frontend Developer Intern",
     company: "Nestiko Business Solutions Pvt. Ltd.",
     period: "June 1, 2024 - July 17, 2024",
-    responsibilities: ["Working on fullstack development."],
+    responsibilities: ["Working on frontend development."],
     skills: [ "ReactJs", "JavaScript", "Tailwind CSS"],
   },
 ];
