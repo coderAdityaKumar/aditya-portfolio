@@ -50,7 +50,7 @@ export default function Projects() {
             {/* Project Image */}
             <div className="overflow-hidden relative h-[300px] md:h-full border-b md:border-b-0 md:border-r">
               <img
-                src={project.image || "/placeholder.svg"}
+                src={project.image}
                 alt={project.title}
                 className="w-full h-full object-contain transition-transform duration-300 group-hover:scale-105"
               />
