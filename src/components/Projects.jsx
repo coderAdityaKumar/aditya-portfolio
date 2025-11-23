@@ -25,7 +25,7 @@ const projects = [
     githubUrl: "",
     features: [
       "Role-based access for students, wardens, chief wardens, and supervisors",
-      "Easy complaint submission with category and priority options",
+      "Easy complaint submission with category and priority optionss",
       "Real-time tracking of complaint status",
       "Student dashboard to view and manage submitted complaints",
       "Warden dashboard for assigning and resolving complaints",
