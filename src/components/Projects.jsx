@@ -1,22 +1,22 @@
 const projects = [
   {
-logo: "public/images/chess-logo.svg",
-title: "Real-Time Chess Game",
-description:
-"A real-time multiplayer chess application that lets two players play live while others spectate. Built with Node.js, Express, and Socket.io, it validates moves using chess.js and synchronizes board state across all connected clients.",
-image:
-"https://raw.githubusercontent.com/coderAdityaKumar/aditya-portfolio/main/src/assets/chess.png",
-tags: ["Node.js", "Express", "Socket.io", "chess.js", "EJS", "WebSockets"],
-demoUrl: "http://localhost:3000/",
-githubUrl: "https://github.com/coderAdityaKumar/Real-Time-Chess-Game",
-features: [
-"Real-time multiplayer gameplay using Socket.io",
-"Automatic player role assignment (White / Black) and spectator mode",
-"Legal move validation with chess.js",
-"Live board synchronization for all connected clients",
-"Simple EJS-based frontend with static assets served from public"
-]
-},
+    logo: "public/images/chess-logo.svg",
+    title: "Real-Time Chess Game",
+    description:
+      "A real-time multiplayer chess application that lets two players play live while others spectate. Built with Node.js, Express, and Socket.io, it validates moves using chess.js and synchronizes board state across all connected clients.",
+    image:
+      "https://raw.githubusercontent.com/coderAdityaKumar/aditya-portfolio/main/src/assets/chess.png",
+    tags: ["Node.js", "Express", "Socket.io", "chess.js", "EJS", "WebSockets"],
+    demoUrl: "http://localhost:3000/",
+    githubUrl: "https://github.com/coderAdityaKumar/Real-Time-Chess-Game",
+    features: [
+      "Real-time multiplayer gameplay using Socket.io",
+      "Automatic player role assignment (White / Black) and spectator mode",
+      "Legal move validation with chess.js",
+      "Live board synchronization for all connected clients",
+      "Simple EJS-based frontend with static assets served from public",
+    ],
+  },
   // {
   //   logo: "/englishexpresswayLogo.svg",
   //   title: "Hostel Complain Management System",
@@ -96,14 +96,6 @@ export default function Projects() {
 
               {/* Links */}
               <div className="flex gap-3 pt-2">
-                <a
-                  href={project.demoUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="px-3 py-1.5 text-sm rounded-md bg-blue-600 text-white hover:bg-blue-700 transition flex items-center"
-                >
-                  🔗 Live
-                </a>
                 {project.githubUrl && (
                   <a
                     href={project.githubUrl}

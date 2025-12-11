@@ -31,7 +31,7 @@ export default function DSA() {
           </ul>
           <div className="mt-3">
             <a href="https://github.com/coderAdityaKumar" target="_blank" rel="noopener noreferrer" className="px-3 py-1.5 bg-gray-800 text-white rounded-md text-sm">GitHub</a>
-            <a href="https://leetcode.com/" target="_blank" rel="noopener noreferrer" className="ml-3 px-3 py-1.5 border rounded-md text-sm">LeetCode</a>
+            <a href="https://leetcode.com/u/AdityaKumarr/" target="_blank" rel="noopener noreferrer" className="ml-3 px-3 py-1.5 border rounded-md text-sm">LeetCode</a>
           </div>
         </div>
       </div>
