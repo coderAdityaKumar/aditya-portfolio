@@ -46,6 +46,36 @@ const projects = [
       "High-accuracy GPS tracking with continuous position updates",
     ],
   },
+  {
+    logo: "public/images/sadhna-logo.svg",
+    title: "Sadhna Tracker - Backend API",
+    description:
+      "A comprehensive REST API for tracking spiritual practices and daily goals. Built with Node.js, Express, and MongoDB, it provides secure user authentication, sadhna progress tracking, and daily goal management with JWT-based authorization and email verification.",
+    image:
+      "https://raw.githubusercontent.com/coderAdityaKumar/aditya-portfolio/main/src/assets/sadhna-tracker.png",
+    tags: [
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JWT",
+      "Mongoose",
+      "Nodemailer",
+      "Bcrypt",
+      "Socket.io",
+    ],
+    demoUrl: "http://your-deployed-url.com/",
+    githubUrl: "https://github.com/your-username/Sadhna-Tracker-App-Backend",
+    features: [
+      "Secure user authentication with JWT tokens and email verification",
+      "Bcrypt password hashing and reset functionality with secure tokens",
+      "Daily sadhna tracking with Mangala Arti, study hours, chanting rounds, and book reading",
+      "Role-based access control (User/Admin) with protected routes",
+      "Daily goals management with progress checking and validation",
+      "CORS-enabled API with rate limiting and Helmet security headers",
+      "MongoDB Mongoose ODM with comprehensive data validation",
+      "Email notifications for password recovery and user verification",
+    ],
+  },
 ];
 
 export default function Projects() {
