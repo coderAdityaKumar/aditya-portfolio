@@ -23,18 +23,45 @@ export default function DSA() {
 
         <div className="p-4 border rounded-md">
           <h3 className="font-semibold mb-2">Where to find my work</h3>
-          <p className="text-sm text-gray-700 dark:text-gray-300 mb-2">I keep solutions and design notes in GitHub repos and personal notes. Recommended next steps:</p>
+          <p className="text-sm text-gray-700 dark:text-gray-300 mb-2">
+            I keep solutions and design notes in GitHub repos and personal
+            notes. Recommended next steps:
+          </p>
           <ul className="list-disc pl-5 text-sm text-gray-700 dark:text-gray-300">
-            <li>Add a `dsA-typescript` folder in your GitHub with solved problems.</li>
-            <li>Include short explanations and complexity analysis for each solution.</li>
-            <li>Create 2–3 LLD notes (Parking Lot, Rate Limiter, URL Shortener) with diagrams and class sketches.</li>
+            <li>
+              Add a `dsA-typescript` folder in your GitHub with solved problems.
+            </li>
+            <li>
+              Include short explanations and complexity analysis for each
+              solution.
+            </li>
+            <li>
+              Create 2–3 LLD notes (Parking Lot, Rate Limiter, URL Shortener)
+              with diagrams and class sketches.
+            </li>
           </ul>
-          <div className="mt-3">
-            <a href="https://github.com/coderAdityaKumar" target="_blank" rel="noopener noreferrer" className="px-3 py-1.5 bg-gray-800 text-white rounded-md text-sm">GitHub</a>
-            <a href="https://leetcode.com/u/AdityaKumarr/" target="_blank" rel="noopener noreferrer" className="ml-3 px-3 py-1.5 border rounded-md text-sm">LeetCode</a>
+          <div className="mt-3 flex justify-start">
+            <a
+              href="https://github.com/coderAdityaKumar"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-3 py-1.5 bg-white text-black border rounded-md text-sm flex gap-2 "
+            >
+                <img src="https://img.icons8.com/?size=100&id=12599&format=png&color=000000" alt="logo" height={10} width={17} />
+              GitHub
+            </a>
+            <a
+              href="https://leetcode.com/u/AdityaKumarr/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="ml-3 px-3 py-1.5 border rounded-md text-sm  flex gap-2"
+            >
+                <img src="https://img.icons8.com/?size=100&id=9L16NypUzu38&format=png&color=000000" alt="logo" height={10} width={17} />
+              LeetCode
+            </a>
           </div>
         </div>
       </div>
     </section>
-  )
+  );
 }

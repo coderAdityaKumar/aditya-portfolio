@@ -63,17 +63,18 @@ export default function Hero() {
               />{" "}
               Resume
             </a>
-              <a
-                href="https://github.com/coderAdityaKumar"
-                target="_blank"
-                className="px-3 py-1.5 text-xs sm:text-sm border rounded hover:bg-gray-100 dark:hover:bg-gray-800 transition flex gap-2"
-              >
-                <img
-                  src="https://img.icons8.com/?size=100&id=efFfwotdkiU5&format=png&color=000000"
-                  alt="logo"
-                  className="w-5 h-5"
-                /> GitHub
-              </a>
+            <a
+              href="https://github.com/coderAdityaKumar"
+              target="_blank"
+              className="px-3 py-1.5 text-xs sm:text-sm border rounded hover:bg-gray-100 dark:hover:bg-gray-800 transition flex gap-2"
+            >
+              <img
+                src="https://img.icons8.com/?size=100&id=efFfwotdkiU5&format=png&color=000000"
+                alt="logo"
+                className="w-5 h-5"
+              />{" "}
+              GitHub
+            </a>
             <a
               href="mailto:asr341025@gmail.com"
               target="_blank"
@@ -95,7 +96,20 @@ export default function Hero() {
                 src="https://img.icons8.com/?size=100&id=108786&format=png&color=000000"
                 alt="logo"
                 className="w-5 h-5"
-              /> LinkedIn
+              />{" "}
+              LinkedIn
+            </a>
+            <a
+              href="https://leetcode.com/u/AdityaKumarr/"
+              target="_blank"
+              className="px-3 py-1.5 text-xs sm:text-sm border rounded hover:bg-gray-100 dark:hover:bg-gray-800 transition flex gap-2"
+            >
+              <img
+                src="https://img.icons8.com/?size=100&id=9L16NypUzu38&format=png&color=000000"
+                alt="logo"
+                className="w-5 h-5"
+              />{" "}
+              Leetcode
             </a>
           </div>
         </div>
@@ -105,43 +119,43 @@ export default function Hero() {
           <div className="relative w-full max-w-xs sm:max-w-sm md:max-w-md aspect-square">
             {/* Tech Grid */}
             <div className="absolute inset-0 grid grid-cols-2 gap-2 sm:gap-4 p-2 sm:p-4">
-                {/* Tech tiles - Backend focused */}
-                <div className="bg-gray-100 dark:bg-gray-800 rounded-lg p-4 flex items-center justify-center">
-                  <span className="text-4xl">
-                    <img
-                      src="https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000"
-                      alt="nodejs"
-                      className="w-10 h-10 animate-pulse"
-                    />
-                  </span>
-                </div>
-                <div className="bg-gray-100 dark:bg-gray-800 rounded-lg p-4 flex items-center justify-center">
-                  <span className="text-4xl">
-                    <img
-                      src="https://img.icons8.com/?size=100&id=uJM6fQYqDaZK&format=png&color=000000"
-                      alt="typescript"
-                      className="w-10 h-10 animate-pulse"
-                    />
-                  </span>
-                </div>
-                <div className="bg-gray-100 dark:bg-gray-800 rounded-lg p-4 flex items-center justify-center">
-                  <span className="text-4xl">
-                    <img
-                      src="https://img.icons8.com/?size=100&id=bosfpvRzNOG8&format=png&color=000000"
-                      alt="database"
-                      className="w-10 h-10 animate-pulse"
-                    />
-                  </span>
-                </div>
-                <div className="bg-gray-100 dark:bg-gray-800 rounded-lg p-4 flex items-center justify-center">
-                  <span className="text-4xl">
-                    <img
-                      src="https://img.icons8.com/?size=100&id=22813&format=png&color=000000"
-                      alt="docker"
-                      className="w-10 h-10 animate-pulse"
-                    />
-                  </span>
-                </div>
+              {/* Tech tiles - Backend focused */}
+              <div className="bg-gray-100 dark:bg-gray-800 rounded-lg p-4 flex items-center justify-center">
+                <span className="text-4xl">
+                  <img
+                    src="https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000"
+                    alt="nodejs"
+                    className="w-10 h-10 animate-pulse"
+                  />
+                </span>
+              </div>
+              <div className="bg-gray-100 dark:bg-gray-800 rounded-lg p-4 flex items-center justify-center">
+                <span className="text-4xl">
+                  <img
+                    src="https://img.icons8.com/?size=100&id=uJM6fQYqDaZK&format=png&color=000000"
+                    alt="typescript"
+                    className="w-10 h-10 animate-pulse"
+                  />
+                </span>
+              </div>
+              <div className="bg-gray-100 dark:bg-gray-800 rounded-lg p-4 flex items-center justify-center">
+                <span className="text-4xl">
+                  <img
+                    src="https://img.icons8.com/?size=100&id=bosfpvRzNOG8&format=png&color=000000"
+                    alt="database"
+                    className="w-10 h-10 animate-pulse"
+                  />
+                </span>
+              </div>
+              <div className="bg-gray-100 dark:bg-gray-800 rounded-lg p-4 flex items-center justify-center">
+                <span className="text-4xl">
+                  <img
+                    src="https://img.icons8.com/?size=100&id=22813&format=png&color=000000"
+                    alt="docker"
+                    className="w-10 h-10 animate-pulse"
+                  />
+                </span>
+              </div>
             </div>
 
             {/* Floating Badges */}
