@@ -17,27 +17,35 @@ const projects = [
       "Simple EJS-based frontend with static assets served from public",
     ],
   },
-  // {
-  //   logo: "/englishexpresswayLogo.svg",
-  //   title: "Hostel Complain Management System",
-  //   description:
-  //     "🏠 Hostel Complaint Management System simplifies how students raise issues and staff resolve them. Complaints about facilities like electricity, Wi-Fi, or mess services can be submitted, tracked, and updated in real time, ensuring faster resolutions, transparency, and smoother communication between students and administrators.",
-  //   image:
-  //     "https://res.cloudinary.com/ddecgpmqp/image/upload/v1763883053/complaintTracking_vhtjfn.png",
-  //   tags: ["Node.js", "NextAuth.js", "Tailwind CSS", "MongoDB", "React.js"],
-  //   demoUrl: "#",
-  //   githubUrl: "",
-  //   features: [
-  //     "Role-based access for students, wardens, chief wardens, and supervisors",
-  //     "Easy complaint submission with category and priority optionss",
-  //     "Real-time tracking of complaint status",
-  //     "Student dashboard to view and manage submitted complaints",
-  //     "Warden dashboard for assigning and resolving complaints",
-  //     "Chief Warden dashboard for overseeing and managing complaints across hostels",
-  //     "Supervisor dashboard for monitoring and resolving assigned complaints",
-  //     "Centralized database integration for efficient communication and record-keeping",
-  //   ],
-  // },
+  {
+    logo: "public/images/tracker-logo.svg",
+    title: "Real-Time Device Tracker",
+    description:
+      "A real-time location tracking application that displays multiple users' geographic locations on a live interactive map. Built with Node.js, Express, and Socket.io, it uses the Geolocation API to continuously track device positions and Leaflet.js for dynamic map rendering with instant synchronization across all connected clients.",
+    image:
+      "https://raw.githubusercontent.com/coderAdityaKumar/aditya-portfolio/main/src/assets/realtime-tracker.png",
+    tags: [
+      "Node.js",
+      "Express",
+      "Socket.io",
+      "Leaflet.js",
+      "Geolocation API",
+      "OpenStreetMap",
+      "EJS",
+      "WebSockets",
+    ],
+    demoUrl: "http://localhost:3200/",
+    githubUrl: "https://github.com/coderAdityaKumar/Real-Time-Device-Tracking-",
+    features: [
+      "Real-time location tracking using Geolocation API with watchPosition()",
+      "Automatic marker creation and updates for connected users",
+      "Live map synchronization across all clients using Socket.io",
+      "User disconnect handling with automatic marker removal",
+      "Interactive Leaflet.js map with OpenStreetMap tile layer",
+      "Responsive UI with animated status indicator",
+      "High-accuracy GPS tracking with continuous position updates",
+    ],
+  },
 ];
 
 export default function Projects() {
