@@ -16,7 +16,7 @@ export default function App() {
       <Experience />
       <Projects />
       <Education />
-      <DSA />
+      {/* <DSA /> */}
       <Contact />
     </div>
   );
