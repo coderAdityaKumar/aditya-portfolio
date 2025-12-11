@@ -10,14 +10,14 @@ import DSA from "./components/DSA";
 export default function App() {
   return (
     <div className="">
-      <Header/>
-      <Hero/>
-      <Experience/>
-      <Education/>
-      <Skills/>
-      <DSA/>
-      <Projects/>
-      <Contact/>
+      <Header />
+      <Hero />
+      <Skills />
+      <Experience />
+      <Projects />
+      <Education />
+      <DSA />
+      <Contact />
     </div>
-  )
+  );
 }

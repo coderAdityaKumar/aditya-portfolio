@@ -87,7 +87,7 @@ export default function Hero() {
               Mail
             </a>
             <a
-              href="www.linkedin.com/in/aditya-kumar-backend"
+              href="https://www.linkedin.com/in/dev-aditya-kumar/"
               target="_blank"
               className="px-3 py-1.5 text-xs sm:text-sm border rounded hover:bg-gray-100 dark:hover:bg-gray-800 transition flex gap-2"
             >
