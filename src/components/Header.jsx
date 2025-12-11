@@ -2,9 +2,9 @@ import { useState, useEffect } from "react";
 
 const navItems = [
   { name: "About", href: "#" },
+  { name: "Skills", href: "#skills" },
   { name: "Experience", href: "#experience" },
   { name: "Projects", href: "#projects" },
-  { name: "Skills", href: "#skills" },
   { name: "Education", href: "#education" },
   { name: "Contact", href: "#contact" },
 ];
@@ -41,7 +41,7 @@ export default function Header() {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <div className="flex items-center">
-            <a href="/" className="text-lg font-bold">
+            <a href="#" className="text-lg font-bold">
               Aditya.
             </a>
           </div>
