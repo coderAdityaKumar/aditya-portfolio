@@ -28,7 +28,7 @@ export default function Education() {
   return (
     <section id="education" className="py-10 max-w-6xl mx-auto px-5 mx-auto">
       <h2 className="text-3xl font-bold mb-10">Education</h2>
-
+      <p className="text-sm text-gray-600 dark:text-gray-400 mb-6">Relevant coursework: Data Structures & Algorithms, Database Systems, Operating Systems, Computer Networks. Currently practicing DSA in TypeScript and learning Low-Level Design (LLD).</p>
       <div className="space-y-8">
         {education.map((edu, index) => (
           <div

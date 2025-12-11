@@ -2,34 +2,48 @@
 
 const skillCategories = [
   {
-    title: "Front End",
+    title: "Languages & Core",
     skills: [
+      { name: "TypeScript", icon: "https://img.icons8.com/?size=100&id=uJM6fQYqDaZK&format=png&color=000000" },
       { name: "JavaScript", icon: "https://img.icons8.com/?size=100&id=108784&format=png&color=000000" },
-      { name: "React.js", icon: "https://img.icons8.com/?size=100&id=wPohyHO_qO1a&format=png&color=000000" },
-      { name: "HTML", icon: "https://img.icons8.com/?size=100&id=20909&format=png&color=000000" },
-      { name: "CSS", icon: "https://img.icons8.com/?size=100&id=YjeKwnSQIBUq&format=png&color=000000" },
-      { name: "Tailwind CSS", icon: "https://img.icons8.com/?size=100&id=CIAZz2CYc6Kc&format=png&color=000000" },
     ],
   },
   {
-    title: "Databases",
-    skills: [
-      { name: "MongoDB", icon: "https://img.icons8.com/?size=100&id=bosfpvRzNOG8&format=png&color=000000" },
-    ],
-  },
-  {
-    title: "Tools & Platforms",
-    skills: [
-      { name: "Git", icon: "https://img.icons8.com/?size=100&id=20906&format=png&color=000000" },
-      { name: "GitHub", icon: "https://img.icons8.com/?size=100&id=efFfwotdkiU5&format=png&color=000000" },
-      { name: "VS Code", icon: "https://img.icons8.com/?size=100&id=9OGIyU8hrxW5&format=png&color=000000" },
-    ],
-  },
-  {
-    title: "Backend",
+    title: "Frameworks & APIs",
     skills: [
       { name: "Node.js", icon: "https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000" },
       { name: "Express.js", icon: "https://img.icons8.com/?size=100&id=kg46nzoJrmTR&format=png&color=000000" },
+      { name: "NestJS", icon: "https://img.icons8.com/?size=100&id=9ESZMOeUioJS&format=png&color=000000" },
+    ],
+  },
+  {
+    title: "Databases & Caching",
+    skills: [
+      { name: "MongoDB", icon: "https://img.icons8.com/?size=100&id=bosfpvRzNOG8&format=png&color=000000" },
+      { name: "Redis", icon: "https://img.icons8.com/?size=100&id=pHS3eRpynIRQ&format=png&color=000000" },
+    ],
+  },
+  {
+    title: "DevOps & Cloud",
+    skills: [
+      { name: "Docker", icon: "https://img.icons8.com/?size=100&id=22813&format=png&color=000000" },
+      { name: "Kubernetes", icon: "https://img.icons8.com/?size=100&id=cvzmaEA4kC0o&format=png&color=000000" },
+      { name: "AWS", icon: "https://img.icons8.com/?size=100&id=33039&format=png&color=000000" },
+    ],
+  },
+  {
+    title: "Testing & Tools",
+    skills: [
+      { name: "Jest", icon: "https://img.icons8.com/?size=100&id=7xG5LhKApf4C&format=png&color=000000" },
+      { name: "Supertest", icon: "https://img.icons8.com/?size=100&id=122581&format=png&color=000000" },
+      { name: "Git", icon: "https://img.icons8.com/?size=100&id=20906&format=png&color=000000" },
+    ],
+  },
+  {
+    title: "Algorithms & Design",
+    skills: [
+      { name: "DSA (TypeScript)", icon: "https://img.icons8.com/?size=100&id=uJM6fQYqDaZK&format=png&color=000000" },
+      { name: "Low-Level Design", icon: "https://img.icons8.com/?size=100&id=uJM6fQYqDaZK&format=png&color=000000" },
     ],
   },
 ]

@@ -11,7 +11,7 @@ export default function Hero() {
               Aditya Kumar
             </h1>
             <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-400">
-              FullStack Developer
+              Backend Developer — Node.js & TypeScript
             </p>
           </div>
 
@@ -41,10 +41,11 @@ export default function Hero() {
 
           {/* Bio */}
           <p className="text-gray-600 dark:text-gray-400 text-sm sm:text-base">
-            A goal-oriented software developer with experience in building web
-            applications using modern technologies like React, Node.js, and
-            more. Seeking to leverage my technical skills to deliver exceptional
-            user experiences.
+            Backend-focused developer building scalable APIs, reliable data
+            systems and production-ready services using Node.js, TypeScript,
+            SQL/NoSQL databases, Docker and cloud platforms. Practicing DSA in
+            TypeScript and learning Low-Level Design (LLD) to strengthen system
+            design and interview readiness.
           </p>
 
           {/* Buttons */}
@@ -62,18 +63,17 @@ export default function Hero() {
               />{" "}
               Resume
             </a>
-            <a
-              href="https://github.com/coderAdityaKumar"
-              target="_blank"
-              className="px-3 py-1.5 text-xs sm:text-sm border rounded hover:bg-gray-100 dark:hover:bg-gray-800 transition flex gap-2"
-            >
-              <img
-                src="https://img.icons8.com/?size=100&id=12599&format=png&color=000000"
-                alt="logo"
-                className="w-5 h-5"
-              />{" "}
-              GitHub
-            </a>
+              <a
+                href="https://github.com/coderAdityaKumar"
+                target="_blank"
+                className="px-3 py-1.5 text-xs sm:text-sm border rounded hover:bg-gray-100 dark:hover:bg-gray-800 transition flex gap-2"
+              >
+                <img
+                  src="https://img.icons8.com/?size=100&id=efFfwotdkiU5&format=png&color=000000"
+                  alt="logo"
+                  className="w-5 h-5"
+                /> GitHub
+              </a>
             <a
               href="mailto:asr341025@gmail.com"
               target="_blank"
@@ -87,7 +87,7 @@ export default function Hero() {
               Mail
             </a>
             <a
-              href="www.linkedin.com/in/dev-aditya-kumar"
+              href="www.linkedin.com/in/aditya-kumar-backend"
               target="_blank"
               className="px-3 py-1.5 text-xs sm:text-sm border rounded hover:bg-gray-100 dark:hover:bg-gray-800 transition flex gap-2"
             >
@@ -95,8 +95,7 @@ export default function Hero() {
                 src="https://img.icons8.com/?size=100&id=108786&format=png&color=000000"
                 alt="logo"
                 className="w-5 h-5"
-              />{" "}
-              LinkedIn
+              /> LinkedIn
             </a>
           </div>
         </div>
@@ -106,60 +105,54 @@ export default function Hero() {
           <div className="relative w-full max-w-xs sm:max-w-sm md:max-w-md aspect-square">
             {/* Tech Grid */}
             <div className="absolute inset-0 grid grid-cols-2 gap-2 sm:gap-4 p-2 sm:p-4">
-              {/* React */}
-              <div className="bg-gray-100 dark:bg-gray-800 rounded-lg p-4 flex items-center justify-center animate-spin-slow">
-                <span className="text-4xl text-blue-500">
-                  <img
-                    src="https://img.icons8.com/?size=100&id=asWSSTBrDlTW&format=png&color=000000"
-                    alt="icon"
-                    className="w-10 h-10  animate-pulse delay-1000"
-                  />
-                </span>
-              </div>
-              {/* Node.js */}
-              <div className="bg-gray-100 dark:bg-gray-800 rounded-lg p-4 flex items-center justify-center ">
-                <span className="text-4xl">
-                  {" "}
-                  <img
-                    src="https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000"
-                    alt="icon"
-                    className="w-10 h-10  animate-pulse delay-1000"
-                  />
-                </span>
-              </div>
-              {/* MongoDB */}
-              <div className="bg-gray-100 dark:bg-gray-800 rounded-lg p-4 flex items-center justify-center ">
-                <span className="text-4xl text-green-600">
-                  {" "}
-                  <img
-                    src="https://img.icons8.com/?size=100&id=bosfpvRzNOG8&format=png&color=000000"
-                    alt="icon"
-                    className="w-10 h-10  animate-pulse delay-1000"
-                  />
-                </span>
-              </div>
-              {/* Tailwind */}
-              <div className="bg-gray-100 dark:bg-gray-800 rounded-lg p-4 flex items-center justify-center ">
-                <span className="text-4xl text-sky-500">
-                  {" "}
-                  <img
-                    src="https://img.icons8.com/?size=100&id=CIAZz2CYc6Kc&format=png&color=000000"
-                    alt="icon"
-                    className="w-10 h-10  animate-pulse delay-1000"
-                  />
-                </span>
-              </div>
+                {/* Tech tiles - Backend focused */}
+                <div className="bg-gray-100 dark:bg-gray-800 rounded-lg p-4 flex items-center justify-center">
+                  <span className="text-4xl">
+                    <img
+                      src="https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000"
+                      alt="nodejs"
+                      className="w-10 h-10 animate-pulse"
+                    />
+                  </span>
+                </div>
+                <div className="bg-gray-100 dark:bg-gray-800 rounded-lg p-4 flex items-center justify-center">
+                  <span className="text-4xl">
+                    <img
+                      src="https://img.icons8.com/?size=100&id=uJM6fQYqDaZK&format=png&color=000000"
+                      alt="typescript"
+                      className="w-10 h-10 animate-pulse"
+                    />
+                  </span>
+                </div>
+                <div className="bg-gray-100 dark:bg-gray-800 rounded-lg p-4 flex items-center justify-center">
+                  <span className="text-4xl">
+                    <img
+                      src="https://img.icons8.com/?size=100&id=bosfpvRzNOG8&format=png&color=000000"
+                      alt="database"
+                      className="w-10 h-10 animate-pulse"
+                    />
+                  </span>
+                </div>
+                <div className="bg-gray-100 dark:bg-gray-800 rounded-lg p-4 flex items-center justify-center">
+                  <span className="text-4xl">
+                    <img
+                      src="https://img.icons8.com/?size=100&id=22813&format=png&color=000000"
+                      alt="docker"
+                      className="w-10 h-10 animate-pulse"
+                    />
+                  </span>
+                </div>
             </div>
 
             {/* Floating Badges */}
             <span className="absolute -top-3 -left-3 bg-white dark:bg-gray-900 dark:text-white px-2 py-1 rounded-full text-xs shadow-md border animate-bounce delay-1000">
-              React Js
+              Node Js
             </span>
             <span className="absolute -bottom-3 -right-3 bg-white dark:bg-gray-900 dark:text-white px-2 py-1 rounded-full text-xs shadow-md border animate-bounce delay-1000">
-              Tailwind CSS
+              Docker
             </span>
             <span className="absolute -top-3 -right-3 bg-white dark:bg-gray-900 dark:text-white px-2 py-1 rounded-full text-xs shadow-md border animate-bounce delay-1000">
-              Node.js
+              Typescript
             </span>
             <span className="absolute -bottom-3 -left-3 bg-white dark:bg-gray-900 dark:text-white px-2 py-1 rounded-full text-xs shadow-md border animate-bounce delay-1000">
               MongoDB

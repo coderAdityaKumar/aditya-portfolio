@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+import DSA from "./components/DSA";
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
       <Experience/>
       <Education/>
       <Skills/>
+      <DSA/>
       <Projects/>
       <Contact/>
     </div>

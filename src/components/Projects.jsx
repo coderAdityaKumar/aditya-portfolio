@@ -1,39 +1,43 @@
-
 const projects = [
   {
-    logo: "src/assets/sadhnaTracker.svg",
-    title: "Sadhna Tracker App",
-    description:
-      "Sadhna Tracker is a simple yet powerful platform designed to help spiritual seekers stay consistent in their daily practices. It allows you to record, monitor, and reflect on your meditation, chanting, reading, or other sadhna activities — turning discipline into a joyful journey. With clean visuals and easy tracking, it keeps you motivated while offering insights into your progress over time.",
-    image: "https://res.cloudinary.com/ddecgpmqp/image/upload/v1763883052/sadhnaTracker_tne3dw.png",
-    tags: ["React.js", "Node.js", "Express.js", "Mongo DB", "Tailwind CSS"],
-    demoUrl: "https://sadhna-tracker-app-frontend.vercel.app/",
-    githubUrl: "",
-    features: [
-      "Daily activity logging for meditation, chanting, and reading",
-      "Progress visualization with streaks and performance insights",
-    ],
-  },
-  {
-    logo: "/englishexpresswayLogo.svg",
-    title: "Hostel Complain Management System",
-    description:
-      "🏠 Hostel Complaint Management System simplifies how students raise issues and staff resolve them. Complaints about facilities like electricity, Wi-Fi, or mess services can be submitted, tracked, and updated in real time, ensuring faster resolutions, transparency, and smoother communication between students and administrators.",
-    image: "https://res.cloudinary.com/ddecgpmqp/image/upload/v1763883053/complaintTracking_vhtjfn.png",
-    tags: ["Node.js", "NextAuth.js", "Tailwind CSS", "MongoDB", "React.js"],
-    demoUrl: "#",
-    githubUrl: "",
-    features: [
-      "Role-based access for students, wardens, chief wardens, and supervisors",
-      "Easy complaint submission with category and priority optionss",
-      "Real-time tracking of complaint status",
-      "Student dashboard to view and manage submitted complaints",
-      "Warden dashboard for assigning and resolving complaints",
-      "Chief Warden dashboard for overseeing and managing complaints across hostels",
-      "Supervisor dashboard for monitoring and resolving assigned complaints",
-      "Centralized database integration for efficient communication and record-keeping",
-    ],
-  },
+logo: "public/images/chess-logo.svg",
+title: "Real-Time Chess Game",
+description:
+"A real-time multiplayer chess application that lets two players play live while others spectate. Built with Node.js, Express, and Socket.io, it validates moves using chess.js and synchronizes board state across all connected clients.",
+image:
+"https://raw.githubusercontent.com/coderAdityaKumar/aditya-portfolio/main/src/assets/chess.png",
+tags: ["Node.js", "Express", "Socket.io", "chess.js", "EJS", "WebSockets"],
+demoUrl: "http://localhost:3000/",
+githubUrl: "https://github.com/coderAdityaKumar/Real-Time-Chess-Game",
+features: [
+"Real-time multiplayer gameplay using Socket.io",
+"Automatic player role assignment (White / Black) and spectator mode",
+"Legal move validation with chess.js",
+"Live board synchronization for all connected clients",
+"Simple EJS-based frontend with static assets served from public"
+]
+},
+  // {
+  //   logo: "/englishexpresswayLogo.svg",
+  //   title: "Hostel Complain Management System",
+  //   description:
+  //     "🏠 Hostel Complaint Management System simplifies how students raise issues and staff resolve them. Complaints about facilities like electricity, Wi-Fi, or mess services can be submitted, tracked, and updated in real time, ensuring faster resolutions, transparency, and smoother communication between students and administrators.",
+  //   image:
+  //     "https://res.cloudinary.com/ddecgpmqp/image/upload/v1763883053/complaintTracking_vhtjfn.png",
+  //   tags: ["Node.js", "NextAuth.js", "Tailwind CSS", "MongoDB", "React.js"],
+  //   demoUrl: "#",
+  //   githubUrl: "",
+  //   features: [
+  //     "Role-based access for students, wardens, chief wardens, and supervisors",
+  //     "Easy complaint submission with category and priority optionss",
+  //     "Real-time tracking of complaint status",
+  //     "Student dashboard to view and manage submitted complaints",
+  //     "Warden dashboard for assigning and resolving complaints",
+  //     "Chief Warden dashboard for overseeing and managing complaints across hostels",
+  //     "Supervisor dashboard for monitoring and resolving assigned complaints",
+  //     "Centralized database integration for efficient communication and record-keeping",
+  //   ],
+  // },
 ];
 
 export default function Projects() {

@@ -3,15 +3,25 @@ const experiences = [
     title: "Web Developer Intern",
     company: "Expelee IT Solutions",
     period: "May 22, 2025 - July 21, 2025",
-    responsibilities: ["Working on Fullstack development."],
-    skills: ["React", "JavaScript", "Node.js", "Tailwind Css"],
+    responsibilities: [
+      "Designed and developed RESTful APIs using Node.js and Express.",
+      "Implemented authentication & authorization (JWT).",
+      "Designed MongoDB schemas and optimized queries for performance.",
+      "Wrote unit and integration tests (Jest, Supertest) and added CI checks.",
+      "Containerized services with Docker for consistent local and staging environments.",
+    ],
+    skills: ["Node.js", "Express", "TypeScript", "MongoDB", "Docker"],
   },
   {
     title: "Frontend Developer Intern",
     company: "Nestiko Business Solutions Pvt. Ltd.",
     period: "June 1, 2024 - July 17, 2024",
-    responsibilities: ["Working on frontend development."],
-    skills: [ "ReactJs", "JavaScript", "Tailwind CSS"],
+    responsibilities: [
+      "Implemented API integrations and client-side logic to consume backend services.",
+      "Collaborated with backend team to design API contracts and DTOs.",
+      "Improved app performance by deferring heavy tasks to backend and optimizing network usage.",
+    ],
+    skills: ["React", "API Integration", "JavaScript", "TypeScript"],
   },
 ];
 

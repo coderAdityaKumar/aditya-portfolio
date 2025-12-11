@@ -50,6 +50,7 @@ export default function Contact() {
   return (
     <section id="contact" className="py-10 max-w-6xl mx-auto px-5 mx-auto">
       <h2 className="text-3xl font-bold mb-10">Contact Me</h2>
+        <p className="text-sm text-gray-600 dark:text-gray-400 mb-6">Open to backend internships & freelancing. Prefer email for fastest response.</p>
 
       <div className="grid md:grid-cols-2 gap-10">
         {/* Contact Info */}
@@ -61,8 +62,8 @@ export default function Contact() {
               <div className="w-10 h-10 rounded-full bg-gray-200 flex items-center justify-center">📧</div>
               <div>
                 <p className="text-sm text-gray-500">Email</p>
-                <a href="mailto:haquedot@gmail.com" className="font-medium hover:underline">
-                  asr341025@gmail.com
+                  <a href="mailto:asr341025@gmail.com" className="font-medium hover:underline">
+                    asr341025@gmail.com
                 </a>
               </div>
             </div>
@@ -71,8 +72,8 @@ export default function Contact() {
               <div className="w-10 h-10 rounded-full bg-gray-200 flex items-center justify-center">📞</div>
               <div>
                 <p className="text-sm text-gray-500">Phone</p>
-                <a href="tel:7502461630" className="font-medium hover:underline">
-                  +91 9784258968
+                  <a href="tel:+919784258968" className="font-medium hover:underline">
+                    +91 9784258968
                 </a>
               </div>
             </div>
@@ -81,7 +82,7 @@ export default function Contact() {
               <div className="w-10 h-10 rounded-full bg-gray-200 flex items-center justify-center">📍</div>
               <div>
                 <p className="text-sm text-gray-500">Location</p>
-                <p className="font-medium">Kota, India</p>
+                  <p className="font-medium">Kota, Rajasthan, India</p>
               </div>
             </div>
 
@@ -89,15 +90,26 @@ export default function Contact() {
               <div className="w-10 h-10 rounded-full bg-gray-200 flex items-center justify-center">💼</div>
               <div>
                 <p className="text-sm text-gray-500">LinkedIn</p>
-                <a
-                  href="www.linkedin.com/in/dev-aditya-kumar"
-                  target="_blank"
-                  className="font-medium hover:underline"
-                >
-                  linkedin.com/in/dev-aditya-kumar
-                </a>
+                  <a
+                    href="https://www.linkedin.com/in/dev-aditya-kumar"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-medium hover:underline"
+                  >
+                    www.linkedin.com/in/aditya-kumar-backend
+                  </a>
               </div>
             </div>
+              <div className="flex items-center gap-3">
+                <div className="w-10 h-10 rounded-full bg-gray-200 flex items-center justify-center">🔗</div>
+                <div>
+                  <p className="text-sm text-gray-500">Quick Links</p>
+                  <div className="flex gap-3 mt-1">
+                    <a href="https://github.com/coderAdityaKumar" target="_blank" rel="noopener noreferrer" className="text-sm font-medium hover:underline">GitHub</a>
+                    <a href="https://drive.google.com/file/d/1pu0TdnJEzQCdIYGqnFEHgrDW_ldtmgK3/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-sm font-medium hover:underline">Resume</a>
+                  </div>
+                </div>
+              </div>
           </div>
         </div>
 
