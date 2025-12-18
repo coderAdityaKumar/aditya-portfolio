@@ -11,7 +11,7 @@ export default function Hero() {
               Aditya Kumar
             </h1>
             <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-400">
-              Backend Developer — Node.js & TypeScript
+              Backend Developer — Node.js
             </p>
           </div>
 
@@ -42,10 +42,10 @@ export default function Hero() {
           {/* Bio */}
           <p className="text-gray-600 dark:text-gray-400 text-sm sm:text-base">
             Backend-focused developer building scalable APIs, reliable data
-            systems and production-ready services using Node.js, TypeScript,
-            SQL/NoSQL databases, Docker and cloud platforms. Practicing DSA in
-            TypeScript and learning Low-Level Design (LLD) to strengthen system
-            design and interview readiness.
+            systems, and production-ready services using Node.js, PostgreSQL
+            databases, and cloud platforms. Practicing Data Structures and
+            Algorithms (DSA) in JavaScript and learning Low-Level Design (LLD)
+            to strengthen system design skills and interview readiness.
           </p>
 
           {/* Buttons */}
@@ -132,8 +132,8 @@ export default function Hero() {
               <div className="bg-gray-100 dark:bg-gray-800 rounded-lg p-4 flex items-center justify-center">
                 <span className="text-4xl">
                   <img
-                    src="https://img.icons8.com/?size=100&id=uJM6fQYqDaZK&format=png&color=000000"
-                    alt="typescript"
+                    src="https://img.icons8.com/?size=100&id=108784&format=png&color=000000"
+                    alt="javascript"
                     className="w-10 h-10 animate-pulse"
                   />
                 </span>
@@ -141,8 +141,8 @@ export default function Hero() {
               <div className="bg-gray-100 dark:bg-gray-800 rounded-lg p-4 flex items-center justify-center">
                 <span className="text-4xl">
                   <img
-                    src="https://img.icons8.com/?size=100&id=bosfpvRzNOG8&format=png&color=000000"
-                    alt="database"
+                    src="https://img.icons8.com/?size=100&id=38561&format=png&color=000000"
+                    alt="postgresql"
                     className="w-10 h-10 animate-pulse"
                   />
                 </span>
@@ -150,8 +150,8 @@ export default function Hero() {
               <div className="bg-gray-100 dark:bg-gray-800 rounded-lg p-4 flex items-center justify-center">
                 <span className="text-4xl">
                   <img
-                    src="https://img.icons8.com/?size=100&id=22813&format=png&color=000000"
-                    alt="docker"
+                    src="https://img.icons8.com/?size=100&id=kg46nzoJrmTR&format=png&color=000000"
+                    alt="Express.js"
                     className="w-10 h-10 animate-pulse"
                   />
                 </span>
@@ -163,13 +163,13 @@ export default function Hero() {
               Node Js
             </span>
             <span className="absolute -bottom-3 -right-3 bg-white dark:bg-gray-900 dark:text-white px-2 py-1 rounded-full text-xs shadow-md border animate-bounce delay-1000">
-              Docker
+              Express.js
             </span>
             <span className="absolute -top-3 -right-3 bg-white dark:bg-gray-900 dark:text-white px-2 py-1 rounded-full text-xs shadow-md border animate-bounce delay-1000">
-              Typescript
+              Javascript
             </span>
             <span className="absolute -bottom-3 -left-3 bg-white dark:bg-gray-900 dark:text-white px-2 py-1 rounded-full text-xs shadow-md border animate-bounce delay-1000">
-              MongoDB
+              PostgreSQL
             </span>
           </div>
         </div>
